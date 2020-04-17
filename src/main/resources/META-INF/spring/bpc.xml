@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:os-core="http://www.openspaces.org/schema/core"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+                http://www.openspaces.org/schema/core
+                http://www.openspaces.org/schema/12.3/core/openspaces-core.xsd">
+
+    <!-- use -Dconfig=property_file to assign the property file for use -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="ignoreResourceNotFound" value="true"/>
+        <property name="location" value="application.properties"/>
+    </bean>
+
+    <bean id="dataProcessor" class="com.aa.rm.optimizer.cloudpoc.processor.DataProcessor">
+    </bean>
+    
+<!--     <bean id="rulesEngine" class="com.aa.rm.helios.optimizer.ruleProcessing.RulesEngine" /> -->
+</beans>
