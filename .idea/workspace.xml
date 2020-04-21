@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e256b19-e492-4f1d-88ca-7aa0540e871b" name="Default Changelist" comment="" />
+    <list default="true" id="3e256b19-e492-4f1d-88ca-7aa0540e871b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sla.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/sla.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appassembler/repo/data-processor-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/appassembler/repo/data-processor-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/sla.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring/sla.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/data-processor.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/data-processor.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/data-processor/META-INF/spring/sla.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/data-processor/META-INF/spring/sla.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1agPF0lvj3MLwy40PoIRGLyCHlq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/assembly" />
@@ -33,6 +47,7 @@
       <recent name="com.aa.rm.optimizer.cloudpoc.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\592067\IntellijWorkspace\cloud\data-processor\src\main\assembly" />
       <recent name="C:\Users\592067\IntellijWorkspace\cloud\data-processor\src\main\resources" />
       <recent name="C:\Users\592067\IntellijWorkspace\cloud\data-processor\src\main\resources\META-INF\spring" />
       <recent name="C:\Users\592067\IntellijWorkspace\cloud\data-processor\src\main\java\com\aa\rm\optimizer\cloudpoc\vo" />
@@ -60,11 +75,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587154155863</updated>
-      <workItem from="1587154159976" duration="1223000" />
+      <workItem from="1587154159976" duration="3515000" />
+      <workItem from="1587419915279" duration="3084000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

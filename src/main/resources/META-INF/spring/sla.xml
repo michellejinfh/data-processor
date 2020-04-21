@@ -5,7 +5,13 @@
 	   http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
        http://www.openspaces.org/schema/sla 
 	   http://www.openspaces.org/schema/12.3/sla/openspaces-sla.xsd">
-	    
+
+    <!-- use -Dconfig=property_file to assign the property file for use -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="ignoreResourceNotFound" value="true"/>
+        <property name="location" value="application.properties"/>
+    </bean>
+
     <!--
         The SLA bean used when deploying this processing unit to the Service Grid.
         The SLA uses a partitioned schema with primary and backup. It will create 2
