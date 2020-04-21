@@ -6,12 +6,6 @@
        http://www.openspaces.org/schema/sla 
 	   http://www.openspaces.org/schema/12.3/sla/openspaces-sla.xsd">
 
-    <!-- use -Dconfig=property_file to assign the property file for use -->
-    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="ignoreResourceNotFound" value="true"/>
-        <property name="location" value="application.properties"/>
-    </bean>
-
     <!--
         The SLA bean used when deploying this processing unit to the Service Grid.
         The SLA uses a partitioned schema with primary and backup. It will create 2
@@ -20,20 +14,20 @@
         GSC by setting the maxInstancesPerVM to 1.
     -->
     
-<!--     <os-sla:sla cluster-schema="partitioned-sync2backup"  -->
-<!--             number-of-instances="2" number-of-backups="0" -->
-<!--             max-instances-per-vm="1"> -->
-<!--     </os-sla:sla>    -->
+     <os-sla:sla cluster-schema="partitioned-sync2backup"
+             number-of-instances="2" number-of-backups="0"
+             max-instances-per-vm="1">
+     </os-sla:sla>
 
-    <os-sla:sla number-of-instances="${app.bpc.number-of-instances}"
-                number-of-backups="${app.bpc.number-of-backups}"
-                max-instances-per-vm="${app.bpc.max-instances-per-vm}"
-                max-instances-per-machine="${app.bpc.max-instances-per-machine}"
-                max-instances-per-zone="${app.bpc.zone-name}/${app.bpc.max-instances-per-zone}">
+<!--    <os-sla:sla number-of-instances="${app.bpc.number-of-instances}"-->
+<!--                number-of-backups="${app.bpc.number-of-backups}"-->
+<!--                max-instances-per-vm="${app.bpc.max-instances-per-vm}"-->
+<!--                max-instances-per-machine="${app.bpc.max-instances-per-machine}"-->
+<!--                max-instances-per-zone="${app.bpc.zone-name}/${app.bpc.max-instances-per-zone}">-->
 
-        <os-sla:requirements>
-            <os-sla:zone name="${app.bpc.zone-name}"/>
-        </os-sla:requirements>
+<!--        <os-sla:requirements>-->
+<!--            <os-sla:zone name="${app.bpc.zone-name}"/>-->
+<!--        </os-sla:requirements>-->
 
-    </os-sla:sla> 
+<!--    </os-sla:sla> -->
 </beans>
