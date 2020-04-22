@@ -10,8 +10,8 @@
 
     <properties>
         <gs.version>14.5.0</gs.version>
-        <java.target.version>11</java.target.version>
-        <java.source.version>11</java.source.version>
+        <java.target.version>1.8</java.target.version>
+        <java.source.version>1.8</java.source.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <oracle.version>12.1.0.2</oracle.version>
         <slf4jVersion>1.7.21</slf4jVersion>
